@@ -145,7 +145,7 @@ body{
 }
 
 
-.card{
+.card5{
 	width: 18rem;
 }
 
@@ -156,6 +156,10 @@ body{
 .style-div{
 	display: flex;
 	justify-content: center;
+}
+
+.dir{
+	width: 100%;
 }
 
 @media (max-width: 800px) {
