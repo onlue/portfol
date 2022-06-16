@@ -121,6 +121,8 @@ body{
 
 .prtfl{
 	font-weight:lighter;font-size:90px;margin-top:10%;
+	display: flex;
+	justify-content: center;
 }
 .offset-info-photo{
 	display: flex;
@@ -143,6 +145,18 @@ body{
 }
 
 
+.card{
+	width: 18rem;
+}
+
+.card2{
+	width: 35rem;
+}
+
+.style-div{
+	display: flex;
+	justify-content: center;
+}
 
 @media (max-width: 800px) {
 	.card-holder{
@@ -150,7 +164,13 @@ body{
 	}
 
 	.card-holder{
-		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.mycard{
+		margin-left: 0;
+		margin-top: 5%;
 	}
 
 	.prtfl{
@@ -165,6 +185,9 @@ body{
 		font-size:40px;
 	}
 
+	.card2{
+		width: 20rem;
+	}
 	.offset-info{
 		transform: translateX(0%);
 		width: 100%;
@@ -174,4 +197,39 @@ body{
 		flex-direction: column;
 	}
 
+	.portfolio-block{
+		display: flex;
+		justify-content: center;
+	}
+
+	.offset-info-img{
+		width: 150px;
+		height: 150px;
+	}
+	.card3{
+		background-position: center;
+		height: 100%;
+	}
+
+	.offset-info{
+		margin-top: 5%;
+	}
+
+	.dir{
+		flex-direction: column;
+	}
+
+	.imgCard{
+		width: 40%;
+	}
+
+	.imgCard2{
+		width: 40%;
+	}
+	.offset-info{
+		height: 100%;
+	}
+	.offset-info-text{
+		margin-bottom: 10px;
+	}
 }
