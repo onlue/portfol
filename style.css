@@ -21,9 +21,10 @@ body{
 	justify-content: center;
 	margin-top: 7%;
 	font-size: 110px;
-	font-weight: lighter;
-	color: rgb(246, 191, 255);
+	font-weight: 100;
+	color: rgba(0,0,0,0.8);
 	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 12px;
 }
 
 .intro-text{
@@ -67,3 +68,110 @@ body{
 	font-size:50px;
 }
 
+
+.line-under-skills{
+	border: 3px solid pink;
+}
+
+.flex{
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.skillstext{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+.imgCard{
+	margin-left: 5%;
+	width: 15%;
+}
+
+.dir{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.imgCard2{
+	width: 10%;
+	margin-left: 2%;
+}
+
+.offset-info{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background: rgb(255,255,255);
+	width: 60%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.nav-link{
+	transition: .4s;
+	border: 1px solid rgba(0,0,0,0);
+}
+
+
+.prtfl{
+	font-weight:lighter;font-size:90px;margin-top:10%;
+}
+.offset-info-photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.offset-info-img{
+	height: 35%;
+}
+
+.nav-link:hover{
+	border: 1px solid rgba(0,0,0,0.4);
+}
+.offset-info-text{
+	height: 40%;
+}
+.brg{
+	filter: brightness(0.65);
+}
+
+
+
+@media (max-width: 800px) {
+	.card-holder{
+		flex-direction: column;
+	}
+
+	.card-holder{
+		width: 90%;
+	}
+
+	.prtfl{
+		font-size:55px;
+	}
+
+	.progus{
+		font-size:36px;
+	}
+
+	.hello-text{
+		font-size:40px;
+	}
+
+	.offset-info{
+		transform: translateX(0%);
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+}
