@@ -13,7 +13,7 @@ body{
 }
 
 *{
-		font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .hello-text{
@@ -49,8 +49,6 @@ body{
 .mycard:first-child{
 	margin-left: 0;
 }
-
-
 
 .programms{
 	padding-top: 3%;
@@ -118,6 +116,7 @@ body{
 	display: flex;
 	justify-content: center;
 }
+
 .offset-info-photo{
 	display: flex;
 	justify-content: center;
@@ -130,6 +129,7 @@ body{
 
 .nav-link:hover{
 	border: 1px solid rgba(0,0,0,0.4);
+}
 .offset-info-text{
 	height: 40%;
 	font-size:20px;
