@@ -192,7 +192,7 @@ body{
     margin-top: 15%;
     font-weight: bold;
     margin-left: 5%;
-    filter: drop-shadow(5px 5px 3px black);
+    filter: drop-shadow(1px 1px 2px black);
 }
 
 .imgCard{
@@ -305,6 +305,7 @@ a{
 	padding: 0;
 	margin-right: 25px;
 	transition: .1s ease-in-out;
+	margin-top:10px;
 }
 
 .contact-li:hover{
@@ -340,6 +341,12 @@ a{
         opacity: 0;
     }
 }
+
+.cnt-img{
+	width: 25px;
+	margin-left: 12px;
+}
+
 .preloader-2 li:nth-child(1) {
     z-index: 24;
 }
@@ -538,17 +545,17 @@ a{
 
 .ul-contact a {
     display: inline-block;
-    color: black; /* Цвет обычной ссылки */
+    color: black; 
     line-height: 1;
-    text-decoration: none; /* Убираем подчеркивание */
+    text-decoration: none; 
     cursor: pointer;
    	letter-spacing: 4px;
 }
 .ul-contact a:after {
-    background-color: rgb(107, 201, 255); /* Цвет линии при наведении на нее курсора мыши */
+    background-color: rgb(107, 201, 255); 
     display: block;
     content: "";
-    height: 2px; /* Высота линии */
+    height: 2px; 
     width: 0%;
     -webkit-transition: width .3s ease-in-out;
     -moz--transition: width .3s ease-in-out;
@@ -632,6 +639,7 @@ a{
 	.imgCard2{
 		width: 40%;
 	}
+
 	.offset-info{
 		height: 100%;
 	}
