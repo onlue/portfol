@@ -124,7 +124,12 @@ body{
 }
 
 .offset-info-img{
-	height: 35%;
+	height: 350px;
+	margin: 4% 4%;
+}
+
+.offset-info-img{
+	height: 350px !important;
 }
 
 .nav-link:hover{
